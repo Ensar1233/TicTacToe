@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTac</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="gameTable">
+          
+        <div id="row1" class="row">
+            <button class="col" id="col1"></button>
+                <button class="col" id="col2"></button>
+                <button class="col" id="col3"></button>
+            </div>
+        <div id="row2" class="row">
+                <button class="col" id="col4"></button>
+                <button class="col" id="col5"></button>
+                <button class="col" id="col6"></button>            
+        </div>
+        <div id="row3" class="row">
+            <button class="col" id="col7"></button>
+            <button class="col" id="col8"></button>
+            <button class="col" id="col9"></button>            
+
+        </div>
+            
+    </div>
+    <div id="popup"> 
+
+        <button class="btn" id="x">X</button>
+        <button class="btn" id="o">O</button>
+    </div>
+    <div id="sonuc" style="visibility: hidden;">
+       <!--
+        <div class="head">
+            <h1 class="sonuc-head">Kazanan X</h1>
+            <button class="btn btn-sonuc">Tekrar Oyna</button>    
+        </div>
+       --> 
+       
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
